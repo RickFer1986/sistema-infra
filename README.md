@@ -2,10 +2,10 @@
 
 <h2>Passo a passo para rodar o Projeto</h2>
 <h3>Clone o projeto e acesse</h3>
-<p>1. git clone https://github.com/RickFer1986/sistema-infra.git "nome_do_seu_projeto"</p>
-<p>2. cd "nome_do_seu_projeto"</p>
+<li>git clone https://github.com/RickFer1986/sistema-infra.git "nome_do_seu_projeto"</li>
+<li>cd "nome_do_seu_projeto"</li>
 <h3>Crie o Arquivo .env</h3>
-<p>3. cp .env.example .env</p>
+<li>cp .env.example .env</li>
 <h3>Atualize as variáveis de ambiente no arquivo .env</h3>
 <ul>
     <li>APP_NAME="Sistema Infra"</li>
@@ -26,4 +26,17 @@
     <li>REDIS_PASSWORD=null</li>
     <li>REDIS_PORT=6379</li>
 </ul>
+<h3>Suba os containers do projeto</h3>
+<ul>
+    <li>docker-compose up -d</li>
+</ul>
+<h3>Acesse o container</h3>
+<li>docker-compose exec app bash</li>
 
+<h3>Instale as dependências do projeto</h3>
+<li>composer install</li>
+
+<h3>Gere a key do projeto Laravel</h3>
+<li>php artisan key:generate</li>
+
+<h3>Acesse o projeto http://localhost:8989</h3>
