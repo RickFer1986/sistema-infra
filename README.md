@@ -10,23 +10,20 @@
 <ul>
     <li>APP_NAME="Sistema Infra"</li>
     <li>APP_URL=http://localhost:8989</li>
+    <br>
+    <li>DB_CONNECTION=mysql</li>
+    <li>DB_HOST=mysql</li>
+    <li>DB_PORT=3306</li>
+    <li>DB_DATABASE=nome_que_desejar_db</li>
+    <li>DB_USERNAME=nome_usuario</li>
+    <li>DB_PASSWORD=senha_aqui</li>
+    <br>
+    <li>CACHE_DRIVER=redis</li>
+    <li>QUEUE_CONNECTION=redis</li>
+    <li>SESSION_DRIVER=redis</li>
+    <br>
+    <li>REDIS_HOST=redis</li>
+    <li>REDIS_PASSWORD=null</li>
+    <li>REDIS_PORT=6379</li>
 </ul>
-
-
-
-DB_CONNECTION=mysql
-DB_HOST=mysql
-DB_PORT=3306
-DB_DATABASE=nome_que_desejar_db
-DB_USERNAME=nome_usuario
-DB_PASSWORD=senha_aqui
-
-CACHE_DRIVER=redis
-QUEUE_CONNECTION=redis
-SESSION_DRIVER=redis
-
-REDIS_HOST=redis
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-</p>
 
