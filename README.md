@@ -7,9 +7,12 @@
 <h3>Crie o Arquivo .env</h3>
 <p>3. cp .env.example .env</p>
 <h3>Atualize as variáveis de ambiente no arquivo .env</h3>
-<p>
-APP_NAME="Sistema Infra"
-APP_URL=http://localhost:8989
+<ul>
+    <li>APP_NAME="Sistema Infra"</li>
+    <li>APP_URL=http://localhost:8989</li>
+</ul>
+
+
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
